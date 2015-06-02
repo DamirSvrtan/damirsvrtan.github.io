@@ -25,7 +25,7 @@
   {% endif %}
       <div class="container">
         <div class='row'>
-          <div class='col-sm-10 col-sm-offset-1'>
+          <div class='col-sm-6 col-sm-offset-3'>
             <div class="navbar-header">
               <div class="navbar-toggle-wrapper visible-xs">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".js-navbar-collapse">
@@ -37,11 +37,8 @@
               <a href="{{ "/" | prepend:site.baseurl }}" class="navbar-brand">{{ site.title }}</a>
             </div>
             <div class="collapse navbar-collapse js-navbar-collapse">
-              <ul class="navbar-nav nav" data-purplecoat="shiori" data-purplecoat-label="nav.html">
-                {% include nav.html %}
-              </ul>
               <ul class="navbar-nav nav navbar-right" data-purplecoat="shiori" data-purplecoat-label="nav-right.html">
-                {% include nav-right.html %}
+                {% include nav.html %}
               </ul>
             </div>
           </div>
