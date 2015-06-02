@@ -1,0 +1,47 @@
+// Add your own custom CSS here.
+@import "pygments-tomorrow";
+
+.post-content img,
+.post-excerpt-home img,
+.post-nav img {
+  @extend .img-rounded;
+}
+.post-content table,
+.post-excerpt-home table,
+.post-nav table {
+  @extend .table;
+  @extend .table-bordered;
+}
+
+.bio{
+  text-align: center;
+  .author-avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+  }
+  .author-description{
+    max-width: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social-badges{
+    .social-profile{
+      // margin-left: 15px;
+    }
+    .github-profile{
+      width: 60px;
+    }
+    .twitter-profile{
+      width: 50px;
+      margin-left: 5px;
+    }
+    .stack-overflow-profile{
+      margin-left: 12px;
+      width: 45px;
+    }
+  }
+}

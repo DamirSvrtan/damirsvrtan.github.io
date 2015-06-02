@@ -1,0 +1,12 @@
+---
+title: Archive
+permalink: "archive/index.html"
+---
+<div class="page-archive">
+{% for post in site.posts %}
+  <p>
+    <a href="{{ post.url | prepend:site.baseurl}}" class="post-title-archive">{{ post.title }}</a>
+    <small class="text-muted">{{ post.date | date_to_string }}</small>
+  </p>
+{% endfor %}
+</div>

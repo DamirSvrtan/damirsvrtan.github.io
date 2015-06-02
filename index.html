@@ -1,0 +1,36 @@
+---
+---
+<div class='bio'>
+  <img class='author-avatar' src='https://avatars2.githubusercontent.com/u/1437202?v=3&s=300'></img>
+  <h1 class='author-name'>
+  Damir Svrtan
+  </h1>
+  <p class='author-description'>
+    Ruby enthusiast situated in <a href='https://www.google.hr/maps/place/Zagreb/@50.0581624,11.1615895,5z/data=!4m2!3m1!1s0x4765d692c902cc39:0x3a45249628fbc28a?hl=en'>Zagreb</a>. Codes at <a href='https://infinum.co'>Infinum</a>. Organizes occasional hardcore/punk shows at <a href='http://attack.hr/'>Attack</a>. Organizes <a href='http://www.meetup.com/rubyzg/'>Ruby Zagreb</a> meetups. Participates in organizing the largest community driven conference in the Balkans, <a href='https://2015.webcampzg.org/'>WebCamp Zagreb</a>. Also blogging on the <a href='https://www.infinum.co/the-capsized-eight/author/damir-svrtan'>Capsized Eight</a>.
+  </p>
+
+  <div class='social-badges'>
+    <a href='https://github.com/DamirSvrtan'><img class='github-profile social-profile' src='http://www.rutzenholzer.eu/static/pic/git.png'/></a>
+    <a href='https://twitter.com/DamirSvrtan'><img class='twitter-profile social-profile' src='http://ericjankowski.com/img/twitterBirdIcon_68x50.png'/></a>
+    <a href='http://stackoverflow.com/users/1279707/zippie?tab=profile'><img class='stack-overflow-profile social-profile' src='http://icons.iconarchive.com/icons/icons8/windows-8/256/Social-Networks-Stackoverflow-icon.png'/></a>
+  </div>
+</div>
+
+{% comment %}
+{% for post in site.posts limit:site.data.theme.num_home_posts %}
+<div class="post-header-home">
+  <h1 class="post-title-home">
+    <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+  </h1>
+  {% include post-header-home.html %}
+</div>
+<div class="post-excerpt-home">
+  {{ post.excerpt }}
+  <p class="text-right"><a href="{{ post.url | prepend:site.baseurl }}">Continue Reading &rarr;</a></p>
+</div>
+{% endfor %}
+<hr>
+<div class="home-read-more">
+  <a href="{{ "/archive" | prepend:site.baseurl }}" class="btn btn-primary btn-block btn-lg">View All {{ site.posts | size }} Articles →</a>
+</div>
+{% endcomment %}
