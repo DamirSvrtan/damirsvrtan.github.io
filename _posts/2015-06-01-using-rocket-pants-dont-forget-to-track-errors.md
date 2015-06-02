@@ -48,6 +48,6 @@ class ApplicationController < RocketPants::Base
 end
 {% endhighlight %}
 
-I ended up submitting some pull requests to get [automatic support for Bugsnag](https://github.com/Sutto/rocket_pants/pull/127) and to [get the documentation updated](https://github.com/Sutto/rocket_pants/pull/129) which got merged pretty fast and released in the version 1.1.2.
+I ended up submitting some pull requests to get [automatic support for Bugsnag](https://github.com/Sutto/rocket_pants/pull/127) and to [get the documentation updated](https://github.com/Sutto/rocket_pants/pull/129) which got merged pretty fast and should be released in the next version of Rocket Pants.
 
-I would say that this is an excellent example of contributing with documentation - if someone else did this, (s)he would save me at least a half an hour of going around the codebase, finding a module I didn't know even existed and implementing it in my app.
+I would say that this is an textbook example of contributing with documentation - if someone else did this, (s)he would save me at least an hour of going around the codebase, finding a module I didn't know even existed and implementing it in my app.
