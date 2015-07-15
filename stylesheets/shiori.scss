@@ -10,7 +10,7 @@ $headings-font-weight: 700;
 $font-size-base: 15px;
 $font-size-h1: floor(($font-size-base * 2));
 $font-size-h2: floor(($font-size-base * 1.4));
-$font-size-h3: floor(($font-size-base * 1));
+$font-size-h3: floor(($font-size-base * 1.2));
 $font-size-h4: floor(($font-size-base * 1));
 $font-size-h5: floor(($font-size-base * 1));
 $font-size-h6: floor(($font-size-base * 1));
@@ -69,7 +69,6 @@ h2 {
   margin-bottom: $line-height-computed * 0.25;
 }
 h3 {
-  text-transform: uppercase;
   margin-bottom: $line-height-computed * 0.25;
 }
 
