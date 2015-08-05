@@ -65,7 +65,7 @@ end
 With the `presence_in` method we can write our `sorting_technique` method with a nice one liner:
 
 {% highlight ruby %}
-def sorting
+def sorting_technique
   params[:sort_by].presence_in(%w(newest most_commented top)) || :newest
 end
 {% endhighlight %}
