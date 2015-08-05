@@ -8,12 +8,9 @@ categories: Ruby Rails
 
 When building web applications with Ruby on Rails you can find yourself in a situation where you want to call user input as a scope on a model.
 
-## Secure user input handling
+## Writing an app with multiple sorting options
 
-Let's say your webapp presents a list of articles and offers multiple ways of sorting them: by upload date, by number of upvotes and by number of comments. Similar to reddit.
-
-
-One of the possible techniques to support this behavior is by defining 3 types of scopes on your Article model: **newest**, **top** and **most_commented**.
+Let's say your webapp presents a list of articles and offers multiple ways of sorting them: by upload date, by number of upvotes and by number of comments. One of the possible techniques to support this behavior is by defining 3 types of scopes on your Article model: **newest**, **top** and **most_commented**.
 
 {% highlight ruby %}
 class Article < ActiveRecord::Base
@@ -23,21 +20,9 @@ class Article < ActiveRecord::Base
 end
 {% endhighlight %}
 
-You want to call those scopes depending on a query parameter passed to your controller.
+You want to call those scopes depending on a query parameter passed to your controller, e.g. `/articles?sort_by=newest`
 
-Of course, as a responsible developer you don't want to send those user inputs directly to your model since you would leave yourself vulnerable to remote code execution:
-
-{% highlight ruby %}
-class ArticlesController < ApplicationController
-  def index
-    Article.public_send(params[:sort_by] || :newest)
-  end
-end
-{% endhighlight %}
-
-With the upper code we could really jeopardize our application if someone modified the url and wrote something like `/articles?sort_by=destroy_all`.
-
-Since that's a **big no-no**, you want to sanitize that user input and an example of such sanitization would be:
+As a responsible developer you don't want to send those user inputs directly to your model since you would leave yourself vulnerable to remote code execution, so you sanitize it:
 
 {% highlight ruby %}
 class ArticlesController < ApplicationController
@@ -51,7 +36,7 @@ class ArticlesController < ApplicationController
      if %w(newest most_commented top).include? params[:sort_by]
        params[:sort_by]
      else
-       :new
+       :newest
      end
   end
 end
@@ -77,7 +62,7 @@ end
 
 ### Usage:
 
-With the `presence_in` method we can write our `sorting_technique` code in one line:
+With the `presence_in` method we can write our `sorting_technique` method with a nice one liner:
 
 {% highlight ruby %}
 def sorting
