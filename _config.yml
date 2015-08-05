@@ -7,6 +7,7 @@ title: "Millions of Pink Lines"
 
 gems:
   - jemoji
+  - jekyll-time-to-read
 exclude:
   - "README.md"
   - "CHANGELOG.md"
