@@ -46,6 +46,35 @@ Jobless.cv do
     end
   end
 
+  group "Community work" do
+    entry do
+      title "Ruby Zagreb Meetup organizer"
+      homepage "http://www.meetup.com/rubyzg/"
+    end
+    entry do
+      title "Volunteer help @ Webcamp Zagreb (the largest Web conference in the Balkans), 2014-2016"
+      homepage "https://2016.webcampzg.org/"
+    end
+    entry do
+      title "Stack Overflow contributor (Top 9%)"
+      homepage "http://stackoverflow.com/users/1279707/zippie?tab=profile"
+    end
+  end
+
+  open_source do
+    github_repo "DamirSvrtan/fasterer"
+    github_repo "infinum/phrasing"
+  end
+
+  group "Certificates" do
+    entry do
+      title "EDX, BerkleyX: CS169.2x: Advanced Software as a Service"
+    end
+    entry do
+      title "EDX, BerkleyX: CS169.1x: Engineering Software as a Service"
+    end
+  end
+
   group "Talks" do
     entry do
       title "Reinventing the Bootcamp Idea @ Rails Israel 2016"
@@ -81,21 +110,6 @@ Jobless.cv do
     end
   end
 
-  group "Community work" do
-    entry do
-      title "Ruby Zagreb Meetup organizer"
-      homepage "http://www.meetup.com/rubyzg/"
-    end
-    entry do
-      title "Volunteer help @ Webcamp Zagreb (the largest Web conference in the Balkans), 2014-2016"
-      homepage "https://2016.webcampzg.org/"
-    end
-    entry do
-      title "Stack Overflow contributor (Top 9%)"
-      homepage "http://stackoverflow.com/users/1279707/zippie?tab=profile"
-    end
-  end
-
   group "Articles" do
     entry do
       title "Trends in Ruby - analyzing rubygems stats for 2015"
@@ -121,20 +135,6 @@ Jobless.cv do
       title "Whitelisting with the lesser known presence in method"
       homepage "https://infinum.co/the-capsized-eight/articles/whitelisting-with-the-lesser-known-presence-in-method"
       description "Article featured in the Ruby Weekly, Ruby5 podcast and Green Ruby newsletter"
-    end
-  end
-
-  open_source do
-    github_repo "DamirSvrtan/fasterer"
-    github_repo "infinum/phrasing"
-  end
-
-  group "Certificates" do
-    entry do
-      title "EDX, BerkleyX: CS169.2x: Advanced Software as a Service"
-    end
-    entry do
-      title "EDX, BerkleyX: CS169.1x: Engineering Software as a Service"
     end
   end
 end
