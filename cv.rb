@@ -12,7 +12,7 @@ Jobless.cv do
       title "Rails Team Lead"
       company "Infinum"
       technologies "Ruby, Ruby on Rails"
-      bulletin "Leading a team of 6 Rails developers"
+      bulletin "Leading a team of 8 Rails developers"
       bulletin "Instituting best practices such as code reviews, pull requests and automated testing"
       bulletin "Enforcing overall code quality"
       bulletin "Leading a startup featured on TechCrunch Disrupt London 2015"
@@ -48,6 +48,18 @@ Jobless.cv do
 
   group "Talks" do
     entry do
+      title "Reinventing the Bootcamp Idea @ Rails Israel 2016"
+      homepage "https://railsisrael2016.events.co.il/tracks"
+    end
+    entry do
+      title "Two Lines of Defense @ Quest For Quality Ljubljana 2016"
+      homepage "http://questforquality.eu/#speakers"
+    end
+    entry do
+      title "Stop wasting time NOT writing tests @ Voxxed Days Belgrade 2016"
+      homepage "https://belgrade.voxxeddays.com"
+    end
+    entry do
       title "Stop wasting time NOT writing tests @ Ruby Conf Lithuania 2016"
       homepage "http://rubyconf.lt/"
     end
@@ -75,7 +87,7 @@ Jobless.cv do
       homepage "http://www.meetup.com/rubyzg/"
     end
     entry do
-      title "Volunteer help @ Webcamp Zagreb (the largest Web conference in the Balkans), 2014-2015"
+      title "Volunteer help @ Webcamp Zagreb (the largest Web conference in the Balkans), 2014-2016"
       homepage "https://2016.webcampzg.org/"
     end
     entry do
