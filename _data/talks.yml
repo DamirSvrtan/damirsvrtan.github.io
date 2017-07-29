@@ -1,0 +1,50 @@
+- event: We Are Developers Vienna
+  event_link: https://www.wearedevelopers.com
+  date: 2017-05-12
+  link: https://speakerdeck.com/damirsvrtan/stop-wasting-time-not-writing-tests
+  title: Stop Wasting Time Not Writing Tests
+- event: Ruby Zagreb Meetup
+  event_link: https://www.meetup.com/rubyzg/events/237562129/
+  date: 2017-02-21
+  link: https://speakerdeck.com/damirsvrtan/building-ruby-bots-on-aws-lambda
+  title: Building Ruby Bots on AWS Lambda
+- event: Rails Israel
+  event_link: https://railsisrael2016.events.co.il/people/2569-damir-svrtan
+  date: 2016-11-14
+  link: https://speakerdeck.com/damirsvrtan/reinventing-the-bootcamp-idea
+  title: Reinventing The Bootcamp Idea
+- event: Quest For Quality Ljubljana
+  event_link: http://questforquality.eu/2016
+  date: 2016-10-28
+  link: https://speakerdeck.com/damirsvrtan/stop-wasting-time-not-writing-tests
+  title: Two Lines of Defense
+- event: Voxxed Days Belgrade
+  event_link: https://belgrade.voxxeddays.com/16/
+  date: 2016-09-28
+  link: https://speakerdeck.com/damirsvrtan/stop-wasting-time-not-writing-tests
+  title: Stop Wasting Time Not Writing Tests
+- event: Ruby Conf Lithuania
+  event_link: https://2016.rubyconf.lt/
+  date: 2016-04-23
+  link: https://speakerdeck.com/damirsvrtan/stop-wasting-time-not-writing-tests
+  title: Stop Wasting Time Not Writing Tests
+- event: Webcamp Zagreb
+  event_link: https://2015.webcampzg.org/talks/view/stop-wasting-time-not-writing-tests/index.html
+  date: 2015-10-03
+  link: https://speakerdeck.com/damirsvrtan/stop-wasting-time-not-writing-tests
+  title: Stop Wasting Time Not Writing Tests
+- event: Ruby Zagreb Meetup
+  event_link: https://www.meetup.com/rubyzg/events/220554135/
+  date: 2015-02-24
+  link: http://slides.com/damirsvrtan/ruby-talks-1-9
+  title: Has anyone seen puts?
+- event: Week Of Webcamp
+  event_link: https://2014.webcampzg.org/week-of-webcamp/
+  date: 2014-10-01
+  link: http://slides.com/damirsvrtan/bidirectional-ruby-framework#/
+  title: Building a bidirectional web framework in Ruby
+- event: Code At Six
+  event_link: www.netokracija.com/codeatsix-phrasing-responzivno-59638
+  date: 2013-11-12
+  link: http://slides.com/damirsvrtan/phrasing#/
+  title: Inline editing in Rails with Phrasing
