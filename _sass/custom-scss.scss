@@ -1,6 +1,29 @@
 // Add your own custom CSS here.
 @import "pygments-tomorrow";
 
+.centered-navigation{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  margin-bottom: 20px;
+
+  a{
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+
+.post-paragraph{
+  margin-bottom: 0px;
+}
+
+.__post-title-archive-lightweight {
+  font-family: $headings-font-family;
+  font-weight: 400;
+  margin-right: 0.5em;
+}
+
 .post-content img,
 .post-excerpt-home img,
 .post-nav img {

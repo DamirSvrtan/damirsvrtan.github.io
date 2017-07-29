@@ -1,0 +1,16 @@
+---
+title: Blog Posts
+permalink: "blog-posts/index.html"
+---
+<div class="page-archive">
+{% for post in site.data.posts %}
+  <p class='post-paragraph'>
+    <a href="{{ post.link }}" class="post-title-archive">{{ post.title }}</a>
+  </p>
+  <p>
+    <small class="text-muted">Published by
+      <a href={{post.publisher_link}}>{{ post.published_by }}</a>
+     on {{ post.date }}
+    </small>
+  </p>
+{% endfor %}

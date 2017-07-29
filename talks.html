@@ -1,0 +1,13 @@
+---
+title: Talks
+permalink: "talks/index.html"
+---
+
+<div class="page-archive">
+{% for talk in site.data.talks %}
+  <p>
+    <a href="{{ talk.link }}" class="post-title-archive __post-title-archive-lightweight">{{ talk.title }}</a>
+    <a href="{{ talk.event_link }}" class="post-title-archive">[{{ talk.event }}]</a>
+    <small class="text-muted">{{ talk.date }}</small>
+  </p>
+{% endfor %}

@@ -33,24 +33,11 @@
   {% else %}
     <div class="navbar navbar-inverse navbar-static-top">
   {% endif %}
-      <div class="container">
-        <div class='row'>
-          <div class='col-sm-6 col-sm-offset-3'>
-            <div class="navbar-header">
-              <div class="navbar-toggle-wrapper visible-xs">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".js-navbar-collapse">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-              </div>
-              <a href="{{ "/" | prepend:site.baseurl }}" class="navbar-brand">{{ site.title }}</a>
-            </div>
-            <div class="collapse navbar-collapse js-navbar-collapse">
-              <ul class="navbar-nav nav navbar-right" data-purplecoat="shiori" data-purplecoat-label="nav-right.html">
-                {% include nav.html %}
-              </ul>
-            </div>
+    <div class="container">
+      <div class='row'>
+        <div class='col-sm-4 col-sm-offset-4'>
+          <div class='centered-navigation'>
+            {% include nav.html %}
           </div>
         </div>
       </div>
