@@ -41,7 +41,7 @@ Jobless.cv do
       start_date "July 2013"
       end_date "April 2015"
 
-      bulletin "Building web applications for U.S. based startups and well established "
+      bulletin "Building web applications for U.S. based startups"
       bulletin "Building the Ruby SDK for the Stormpath Authentication Service (a Silicon Valley startup)"
       bulletin "Developed Phrasing, an open source inline content editing Rails engine"
     end
