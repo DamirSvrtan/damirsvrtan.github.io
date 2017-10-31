@@ -4,8 +4,9 @@ Jobless.cv do
   name "Damir Svrtan"
   email "damir.svrtan@gmail.com"
   location "Zagreb, Croatia"
-  address "Bozidara Magovca 111"
   homepage "http://damir.svrtan.me"
+  stylesheet 'cv.css'
+  template 'cv.html.erb'
 
   employment do
     entry do
@@ -62,49 +63,78 @@ Jobless.cv do
 
   group "Talks" do
     entry do
-      title 'Building Ruby Bots on AWS Lambda @ NYC.rb 2017'
+      title "Building Ruby Bots on AWS Lambda"
+      bulletin "NYC.rb 2017"
+      bulletin "Ruby Zagreb 2017"
       homepage 'https://www.meetup.com/NYC-rb/events/235117574/'
     end
     entry do
-      title 'Stateless Authentication w/ JSON Web Tokens @ South East Ruby Nashville 2017'
+      title "Stateless Authentication w/ JSON Web Tokens"
+      bulletin "South East Ruby Nashville 2017"
       homepage 'https://southeastruby.com/'
     end
     entry do
-      title 'Stop Wasting Time Not Writing Tests @ We Are Developers Vienna 2017'
+      title "Stop Wasting Time NOT Writing Tests"
+      bulletin "We Are Developers Vienna 2017"
+      bulletin "Voxxed Days Belgrade 2016"
+      bulletin "Ruby Conf Lithuania 2016"
+      bulletin "Webcamp Zagreb 2015"
       homepage 'https://www.wearedevelopers.com'
     end
     entry do
-      title "Reinventing the Bootcamp Idea @ Rails Israel 2016"
+      title "Reinventing the Bootcamp Idea"
+      bulletin "Rails Israel 2016"
       homepage "https://railsisrael2016.events.co.il/tracks"
     end
     entry do
-      title "Two Lines of Defense @ Quest For Quality Ljubljana 2016"
+      title "Two Lines of Defense"
+      bulletin "Quest For Quality Ljubljana 2016"
       homepage "http://questforquality.eu/#speakers"
     end
-    entry do
-      title "Stop wasting time NOT writing tests @ Voxxed Days Belgrade 2016"
-      homepage "https://belgrade.voxxeddays.com"
-    end
-    entry do
-      title "Stop wasting time NOT writing tests @ Ruby Conf Lithuania 2016"
-      homepage "http://rubyconf.lt/"
-    end
-    entry do
-      title "Stop wasting time NOT writing tests @ Webcamp Zagreb 2015"
-      homepage "https://2015.webcampzg.org/talks/view/stop-wasting-time-not-writing-tests/"
-    end
-    entry do
-      title "Has anyone seen puts? @ Ruby Zagreb Meetup 2015"
-      homepage "http://www.meetup.com/rubyzg/events/220554135/"
-    end
-    entry do
-      title "Building a bidirectional web framework in Ruby @ Week of Webcamp 2014"
-      homepage "https://2014.webcampzg.org/week-of-webcamp/wednesday/"
-    end
-    entry do
-      title "Phrasing @ Code at Six 2013"
-      homepage "http://codeatsix.infinum.co/meetup"
-    end
+    # entry do
+    #   title 'Building Ruby Bots on AWS Lambda @ NYC.rb 2017'
+    #   homepage 'https://www.meetup.com/NYC-rb/events/235117574/'
+    # end
+    # entry do
+    #   title 'Stateless Authentication w/ JSON Web Tokens @ South East Ruby Nashville 2017'
+    #   homepage 'https://southeastruby.com/'
+    # end
+    # entry do
+    #   title 'Stop Wasting Time Not Writing Tests @ We Are Developers Vienna 2017'
+    #   homepage 'https://www.wearedevelopers.com'
+    # end
+    # entry do
+    #   title "Reinventing the Bootcamp Idea @ Rails Israel 2016"
+    #   homepage "https://railsisrael2016.events.co.il/tracks"
+    # end
+    # entry do
+    #   title "Two Lines of Defense @ Quest For Quality Ljubljana 2016"
+    #   homepage "http://questforquality.eu/#speakers"
+    # end
+    # entry do
+    #   title "Stop wasting time NOT writing tests @ Voxxed Days Belgrade 2016"
+    #   homepage "https://belgrade.voxxeddays.com"
+    # end
+    # entry do
+    #   title "Stop wasting time NOT writing tests @ Ruby Conf Lithuania 2016"
+    #   homepage "http://rubyconf.lt/"
+    # end
+    # entry do
+    #   title "Stop wasting time NOT writing tests @ Webcamp Zagreb 2015"
+    #   homepage "https://2015.webcampzg.org/talks/view/stop-wasting-time-not-writing-tests/"
+    # end
+    # entry do
+    #   title "Has anyone seen puts? @ Ruby Zagreb Meetup 2015"
+    #   homepage "http://www.meetup.com/rubyzg/events/220554135/"
+    # end
+    # entry do
+    #   title "Building a bidirectional web framework in Ruby @ Week of Webcamp 2014"
+    #   homepage "https://2014.webcampzg.org/week-of-webcamp/wednesday/"
+    # end
+    # entry do
+    #   title "Phrasing @ Code at Six 2013"
+    #   homepage "http://codeatsix.infinum.co/meetup"
+    # end
   end
 
   group "Articles" do

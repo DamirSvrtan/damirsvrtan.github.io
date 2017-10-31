@@ -1,0 +1,82 @@
+body {
+  font-family: helvetica;
+  font-size: 12px;
+  color: #fff;
+}
+h1, h2, h3, .title {
+  color: #fff;
+  font-family: helvetica;
+}
+h1 {
+  float: left;
+  font-size: 50px;
+  margin-top: 20px;
+}
+h3 {
+  font-size: 16px;
+  margin-top: 0;
+}
+a, a:active, a:link, a:hover, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+ul {
+  padding-left: 1em;
+}
+#base {
+  padding: 2em;
+}
+.technologies {
+  font-size: 14px;
+  font-style: italic;
+}
+.time-span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 12px;
+}
+.item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1em;
+  position: relative;
+}
+.homepage {
+  font-size: 14px;
+}
+.personal-info {
+  float: right;
+  margin-top: 20px;
+  text-align: right;
+}
+.flexbox {
+  page-break-inside: avoid;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+.group-title {
+	width: 20%;
+	padding: 10px;
+}
+.group {
+	width: 80%;
+	padding: 10px;
+}
+@media screen {
+  #base {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 850px;
+    background-color: #3c657e;
+  }
+  body {
+    background-color: #222;
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
