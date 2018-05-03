@@ -1,7 +1,12 @@
+- event: Ruby X Elixir Conf Taiwan
+  event_link: https://2018.rubyconf.tw
+  date: 2018-04-28
+  link: https://speakerdeck.com/damirsvrtan/building-serverless-ruby-bots
+  title: Building Serverless Ruby Bots
 - event: NYC.rb
   event_link: https://www.meetup.com/NYC-rb/events/235117574/
   date: 2017-10-10
-  link: https://www.meetup.com/NYC-rb/events/235117574/
+  link: https://speakerdeck.com/damirsvrtan/building-ruby-bots-on-aws-lambda
   title: Building Ruby Bots on AWS Lambda
 - event: Southeast Ruby Nashville
   event_link: https://southeastruby.com/
