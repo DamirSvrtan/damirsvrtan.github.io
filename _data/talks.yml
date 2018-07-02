@@ -1,3 +1,8 @@
+- event: Paris.rb Conf
+  event_link: https://2018.rubyparis.org/
+  date: 2018-06-28
+  link: https://speakerdeck.com/damirsvrtan/building-serverless-ruby-bots-at-paris-dot-rb-conf-2018
+  title: Building Serverless Ruby Bots
 - event: Ruby X Elixir Conf Taiwan
   event_link: https://2018.rubyconf.tw
   date: 2018-04-28
