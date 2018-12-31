@@ -1,3 +1,8 @@
+- event: Ruby Conf LA
+  event_link: https://rubyconf.org/
+  date: 2018-11-15
+  link: https://speakerdeck.com/damirsvrtan/building-serverless-ruby-bots-at-ruby-conf-2018
+  title: Building Serverless Ruby Bots
 - event: Paris.rb Conf
   event_link: https://2018.rubyparis.org/
   date: 2018-06-28
