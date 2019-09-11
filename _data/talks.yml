@@ -1,3 +1,8 @@
+- event: API City Seattle
+  event_link: https://2019.apicity.io/speakers/damir-svrtan/
+  date: 2019-09-05
+  link: https://speakerdeck.com/damirsvrtan/crossing-domain-boundaries-with-graphql
+  title: Crossing Domain Boundaries with GraphQL
 - event: Euruko Rotterdam
   event_link: https://euruko2019.org/
   date: 2019-06-21
