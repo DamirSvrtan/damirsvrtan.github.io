@@ -28,6 +28,11 @@
   date: 2018-04-28
   link: https://speakerdeck.com/damirsvrtan/building-serverless-ruby-bots
   title: Building Serverless Ruby Bots
+- event: Ruby Zagreb Meetup
+  event_link: https://www.meetup.com/rubyzg/events/247117164/
+  date: 2018-02-01
+  link: https://speakerdeck.com/damirsvrtan/importing-and-serving-millions-of-records
+  title: Importing and serving millions of records
 - event: NYC.rb
   event_link: https://www.meetup.com/NYC-rb/events/235117574/
   date: 2017-10-10
