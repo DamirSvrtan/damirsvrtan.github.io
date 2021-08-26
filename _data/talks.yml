@@ -1,3 +1,13 @@
+- event: APIDays Live Hong Kong
+  event_link: https://www.apidays.global/hongkong/
+  date: 2021-08-26
+  link: https://speakerdeck.com/damirsvrtan/designing-apis-less-data-is-more
+  title: "Designing APIs: Less Data is More"
+- event: APIDays Live New York
+  event_link: https://www.apidays.global/newyork/
+  date: 2021-07-28
+  link: https://speakerdeck.com/damirsvrtan/designing-apis-less-data-is-more
+  title: "Designing APIs: Less Data is More"
 - event: Rails Conf 2021
   event_link: https://railsconf.com/program/sessions#session-1097
   date: 2021-04-13
